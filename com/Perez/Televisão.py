@@ -37,28 +37,3 @@ class Televisão:
     def pula_canal(self, n_canal):
         # função que pula o canal
         self.canal = n_canal
-
-
-# tv = Televisão()
-# tv.ligada
-# stop = True
-# while stop:
-#     click = input()
-#     if click == '' and tv.ligada:
-#         tv.ligada = not(tv.ligada)
-#         print(" _________")
-#         print("|         |")
-#         print("| -_-_-_- |")
-#         print("| Ligada  |")
-#         print("|_________|")
-#     elif click == "" and tv.ligada:
-#         tv.ligada = not(tv.ligada)
-#         print(" _________")
-#         print("|         |")
-#         print("|         |")
-#         print("|Desligada|")
-#         print("|_________|")
-#     elif click == "  ":
-#         parou = False
-#     else:
-#         stop = True
