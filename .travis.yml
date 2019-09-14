@@ -6,6 +6,5 @@ python:
  - pip install -U pip
  - pip install codecov
 script:
- - coverage run --source=com/lopes -m unittest discover;coverage report -m
+ - coverage run --source=com/Perez -m unittest discover;coverage report -m
  - python -m unittest discover
-  
