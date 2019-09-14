@@ -1,4 +1,5 @@
-from aula06 import Televisão
+from unittest import TestCase
+from com.Perez.Televisão import Televisão
 
 
 def teste_cria_desligada():
